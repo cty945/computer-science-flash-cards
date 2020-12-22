@@ -55,6 +55,7 @@ def close_db(error):
 #     return 'Initialized the database.'
 
 
+
 @app.route('/')
 def index():
     if session.get('logged_in'):
